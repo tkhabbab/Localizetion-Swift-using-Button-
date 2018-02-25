@@ -82,3 +82,25 @@ class L102Language {
         }) { (finished) -> Void in
             
         }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        //Resurces Help  
+        
+        https://medium.com/if-let-swift-programming/working-with-localization-in-swift-4a87f0d393a4
+        
+        
+        
