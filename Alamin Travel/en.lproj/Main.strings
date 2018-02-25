@@ -1,0 +1,42 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "1DJ-I1-6fh"; */
+"1DJ-I1-6fh.text" = "Label";
+
+/* Class = "UITextView"; text = "17292, Moscow, ulitsa Vavilova, house 65 А, 12 floor, office 1207 Tel.:8(495) 5454180 / 7887762 Fax:8(495)7190538 Мobile: 892691975 56 / 58 +79151791781 / 2 / 3 / 4 / 5­\n"; ObjectID = "5GM-ga-oK9"; */
+"5GM-ga-oK9.text" = "17292, Moscow, ulitsa Vavilova, house 65 А, 12 floor, office 1207 Tel.:8(495) 5454180 / 7887762 Fax:8(495)7190538 Мobile: 892691975 56 / 58 +79151791781 / 2 / 3 / 4 / 5­\n";
+
+/* Class = "UIButton"; normalTitle = "Ukraine"; ObjectID = "7Ap-MG-e3r"; */
+"7Ap-MG-e3r.normalTitle" = "Ukraine";
+
+/* Class = "UITabBarItem"; title = "FLIGHT"; ObjectID = "ID9-eH-nQ9"; */
+"ID9-eH-nQ9.title" = "FLIGHT";
+
+/* Class = "UIButton"; normalTitle = "Русский"; ObjectID = "KfS-xZ-QMT"; */
+"KfS-xZ-QMT.normalTitle" = "Русский";
+
+/* Class = "UILabel"; text = "Email:"; ObjectID = "LrU-hv-qYm"; */
+"LrU-hv-qYm.text" = "Email:";
+
+/* Class = "UITextView"; text = "Monday – Friday from 8:00 to 20:00; Saturday from 10:00 to 18:00. "; ObjectID = "Ooy-xL-Ee3"; */
+"Ooy-xL-Ee3.text" = "Monday – Friday from 8:00 to 20:00; Saturday from 10:00 to 18:00. ";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "Ss4-YI-obx"; */
+"Ss4-YI-obx.text" = "Title";
+
+/* Class = "UIButton"; normalTitle = "English"; ObjectID = "T4N-Zs-a1I"; */
+"T4N-Zs-a1I.normalTitle" = "English";
+
+/* Class = "UITabBarItem"; title = "PAYMENT"; ObjectID = "nxw-AN-UHP"; */
+"nxw-AN-UHP.title" = "PAYMENT";
+
+/* Class = "UITextView"; text = "sazzad@mail.ru  reservation@alamin.ru"; ObjectID = "qG4-vF-Eee"; */
+"qG4-vF-Eee.text" = "sazzad@mail.ru  reservation@alamin.ru";
+
+/* Class = "UITabBarItem"; title = "Contacts"; ObjectID = "vcS-y2-TZh"; */
+"vcS-y2-TZh.title" = "Contacts";
+
+/* Class = "UILabel"; text = "Work Hours"; ObjectID = "vjw-r0-DOC"; */
+"vjw-r0-DOC.text" = "Work Hours";
+
+/* Class = "UILabel"; text = "Main Office:"; ObjectID = "zxY-wo-yDd"; */
+"zxY-wo-yDd.text" = "Main Office:";

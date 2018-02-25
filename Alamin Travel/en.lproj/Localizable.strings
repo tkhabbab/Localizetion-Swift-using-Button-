@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  Alamin Travel
+
+  Created by Khabbab on 2/19/18.
+  Copyright © 2018 Khabbab. All rights reserved.
+*/
+"mainAddress" = "17292, Moscow, ulitsa Vavilova, house 65 А, 12 floor, office 1207 Tel.:8(495) 5454180 / 7887762 Fax:8(495)7190538 Мobile: 892691975 56 / 58 +79151791781 / 2 / 3 / 4 / 5­";
+
+"workhour" = "Monday – Friday from 8:00 to 20:00; Saturday from 10:00 to 18:00. ";
+
+
+"inouroffice" = "in our office";
+"inoffice2" = "Payment by cash or credit card in our office is the most reliable way to pay for tickets. You come to our office \n and buying of pre-booked and confirmed ticket. It’s very simple.";
+
+"headoffice" = "  Head Office:  \n\n117292, Moscow, ul. Vavilova, \nhouse 65 A, 12th Floor, Suite 1207 \nTel.: 8 (495) 5454180/7887762 \nMobile: 892 691 975 56/57/58 \n\n  Working hour  \n\nMonday – Friday from 10:00 to 20:00; \nSaturday from 11:00 to 18:00.\n\n  Branch:  \n\n394000, Voronezh, \nul.Studencheskaya, 26a, Suite 304 \ntel.: +7 (4732) 61-02-29 / 94-90-16 \nMobile.: +7920-427-88-65";
+"paymenttc" = "PAYMENT THROUGH COURIER";
+"paymenttc2" = "* Ticket for cash. Courier comes to your home or work.\n* Tickets online orders bring to your address.\n* Our couriers are working 7 days a week from 10:00 to 19:00, including holidays.\n* Tariff – 300 rubles.\n* Tariff for prompt delivery from 3 to 5 hours a day of order – 400 rubles.\n* Shipping rates at the metro station Mitino Volokolamsk Myakinino, Strogino, Dmitry Donskoy, Starokachalovskaya Skobelevskaya, Admiral Ushakov, Street Gorchakov Buninskaya Avenue and Market “Gardener” and the area Kapotnya – 400 rubles.\n* Delivery is only within the Ring Road.";
+"otherpm" = "Other payment methods";
+"otherpm2" = "* Bank Cards";
+"safeop" = "SAFE ONLINE PAYMENTS";
+"safeop2" = "Security of processing AcquiroPay is confirmed by certificate of standard payment card industry data security PCI DSS. Reliability of service is ensured by intellectual fraud monitoring system, as well as the use of 3D Secure -modern security technology Internet payments. Your card details are entered on a special secure payment page. Transmission of information in processing company AcquiroPay comes with encryption technology TLS. Further transmission is carried out via closed banking channels, with the highest level of reliability. AcquiroPay does not pass your card details shop and other third persons! If your card supports 3D Secure, to make a payment, you will need to pass additional authenticated user in issuing bank (the Bank that issued your card). To do this, you will be directed to the page of the Bank that issued the card. Kind of inspection depends on the Bank. Typically, this is an additional password, which is sent to SMS, map variables, codes or other ways. \n\nIf you have any questions about the perfect payment, you can contact technical support processing center AcquiroPay : phone +1-800-460-9773";

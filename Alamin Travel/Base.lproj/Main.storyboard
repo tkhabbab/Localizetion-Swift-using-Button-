@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Oih-8V-X9I">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Alamin Travels-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Alamin_Travel" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="OfT-iz-fUF">
+                                <rect key="frame" x="0.0" y="37" width="375" height="581"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iLc-zs-XD1">
+                                <rect key="frame" x="0.0" y="64" width="375" height="30"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleAspectFit" distribution="equalSpacing" alignment="center" spacing="19" translatesAutoresizingMaskIntoConstraints="NO" id="cEW-Xn-ybf">
+                                        <rect key="frame" x="166" y="0.0" width="201" height="30"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KfS-xZ-QMT">
+                                                <rect key="frame" x="0.0" y="0.0" width="60" height="30"/>
+                                                <state key="normal" title="Русский"/>
+                                                <connections>
+                                                    <action selector="btnru:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5jq-U3-RzI"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T4N-Zs-a1I">
+                                                <rect key="frame" x="79" y="0.0" width="50" height="30"/>
+                                                <state key="normal" title="English"/>
+                                                <connections>
+                                                    <action selector="btneng:" destination="BYZ-38-t0r" eventType="touchUpInside" id="K7x-Zh-6J8"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ap-MG-e3r">
+                                                <rect key="frame" x="148" y="0.0" width="53" height="30"/>
+                                                <state key="normal" title="Ukraine"/>
+                                                <connections>
+                                                    <action selector="btnuk:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xLX-K8-gAp"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="cEW-Xn-ybf" firstAttribute="top" secondItem="iLc-zs-XD1" secondAttribute="top" id="0sh-jY-f4E"/>
+                                    <constraint firstItem="cEW-Xn-ybf" firstAttribute="trailing" secondItem="iLc-zs-XD1" secondAttribute="trailingMargin" id="Wjp-rl-rdF"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="OfT-iz-fUF" firstAttribute="trailing" secondItem="iLc-zs-XD1" secondAttribute="trailing" id="3te-UD-5Je"/>
+                            <constraint firstAttribute="bottom" secondItem="iLc-zs-XD1" secondAttribute="bottom" constant="573" id="5G4-xQ-MnV"/>
+                            <constraint firstItem="OfT-iz-fUF" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="37" id="As2-ei-Wj6"/>
+                            <constraint firstItem="iLc-zs-XD1" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="FlR-Qc-cdy"/>
+                            <constraint firstItem="iLc-zs-XD1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="GBj-fv-lbS"/>
+                            <constraint firstItem="OfT-iz-fUF" firstAttribute="leading" secondItem="iLc-zs-XD1" secondAttribute="leading" id="ReS-xz-KdP"/>
+                            <constraint firstItem="iLc-zs-XD1" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Th4-vg-Vvh"/>
+                            <constraint firstItem="OfT-iz-fUF" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="Tkr-mJ-9sO"/>
+                            <constraint firstAttribute="trailing" secondItem="iLc-zs-XD1" secondAttribute="trailing" id="njE-Hf-7kv"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Alamin Travels" id="rKP-6k-5qx"/>
+                    <connections>
+                        <outlet property="btnEng" destination="T4N-Zs-a1I" id="xIf-kF-z4a"/>
+                        <outlet property="btnRU" destination="KfS-xZ-QMT" id="Lep-ZA-NeS"/>
+                        <outlet property="btnUK" destination="7Ap-MG-e3r" id="RaQ-9W-u2c"/>
+                        <outlet property="webView" destination="OfT-iz-fUF" id="VWe-5O-FEe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1540" y="-956.67166416791611"/>
+        </scene>
+        <!--Contacts-->
+        <scene sceneID="dvt-ph-q23">
+            <objects>
+                <viewController id="Tmy-p9-5U7" customClass="ContactViewController" customModule="Alamin_Travel" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Whl-Dv-Uvh"/>
+                        <viewControllerLayoutGuide type="bottom" id="QNr-rK-zQC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dEH-8v-ugM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pCV-ha-Pvu">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GNW-z0-GmJ">
+                                        <rect key="frame" x="0.0" y="32" width="375" height="392"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="392" id="qoa-MK-hcR"/>
+                                        </constraints>
+                                    </view>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Monday – Friday from 8:00 to 20:00; Saturday from 10:00 to 18:00. " translatesAutoresizingMaskIntoConstraints="NO" id="Ooy-xL-Ee3">
+                                        <rect key="frame" x="8" y="203" width="359" height="82"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="82" id="tnL-OC-28J"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LrU-hv-qYm">
+                                        <rect key="frame" x="7" y="302" width="96" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="960-YV-6GK"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="sazzad@mail.ru  reservation@alamin.ru" translatesAutoresizingMaskIntoConstraints="NO" id="qG4-vF-Eee">
+                                        <rect key="frame" x="0.0" y="331" width="375" height="75"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="75" id="XE6-F0-YdE"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Work Hours" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vjw-r0-DOC">
+                                        <rect key="frame" x="7" y="173" width="344" height="22"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lut-U1-uBt">
+                                        <rect key="frame" x="0.0" y="432" width="375" height="186"/>
+                                        <subviews>
+                                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="mvX-ez-YuJ">
+                                                <rect key="frame" x="0.0" y="16" width="375" height="170"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="170" id="s7S-ba-Wce"/>
+                                                    <constraint firstAttribute="width" constant="375" id="uB0-K2-Yyq"/>
+                                                </constraints>
+                                            </mapView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="mvX-ez-YuJ" firstAttribute="top" secondItem="lut-U1-uBt" secondAttribute="top" constant="16" id="Bbe-bG-GbQ"/>
+                                            <constraint firstItem="mvX-ez-YuJ" firstAttribute="leading" secondItem="lut-U1-uBt" secondAttribute="leading" id="ETh-CN-E2p"/>
+                                            <constraint firstAttribute="trailing" secondItem="mvX-ez-YuJ" secondAttribute="trailing" id="YOk-eT-NHt"/>
+                                            <constraint firstAttribute="bottom" secondItem="mvX-ez-YuJ" secondAttribute="bottom" id="d57-3y-dRh"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="GNW-z0-GmJ" firstAttribute="trailing" secondItem="lut-U1-uBt" secondAttribute="trailing" id="1c3-jL-wJ0"/>
+                                    <constraint firstItem="lut-U1-uBt" firstAttribute="top" secondItem="GNW-z0-GmJ" secondAttribute="bottom" constant="8" symbolic="YES" id="4ta-pY-spz"/>
+                                    <constraint firstAttribute="bottom" secondItem="qG4-vF-Eee" secondAttribute="bottom" constant="212" id="8dm-ru-yyb"/>
+                                    <constraint firstAttribute="trailing" secondItem="qG4-vF-Eee" secondAttribute="trailing" id="9cI-Xw-cZY"/>
+                                    <constraint firstAttribute="trailing" secondItem="LrU-hv-qYm" secondAttribute="trailing" constant="272" id="Du2-fC-l14"/>
+                                    <constraint firstItem="GNW-z0-GmJ" firstAttribute="top" secondItem="pCV-ha-Pvu" secondAttribute="top" constant="32" id="EH5-gk-Ep9"/>
+                                    <constraint firstItem="lut-U1-uBt" firstAttribute="leading" secondItem="GNW-z0-GmJ" secondAttribute="trailing" constant="-375" id="Emg-nO-mLQ"/>
+                                    <constraint firstItem="vjw-r0-DOC" firstAttribute="leading" secondItem="pCV-ha-Pvu" secondAttribute="leading" constant="7" id="Nyb-mQ-ns7"/>
+                                    <constraint firstItem="LrU-hv-qYm" firstAttribute="leading" secondItem="pCV-ha-Pvu" secondAttribute="leading" constant="7" id="PCJ-Po-kNV"/>
+                                    <constraint firstItem="LrU-hv-qYm" firstAttribute="top" secondItem="Ooy-xL-Ee3" secondAttribute="bottom" constant="17" id="PZt-4l-A9u"/>
+                                    <constraint firstItem="qG4-vF-Eee" firstAttribute="top" secondItem="LrU-hv-qYm" secondAttribute="bottom" constant="8" id="PxI-oe-4aQ"/>
+                                    <constraint firstItem="GNW-z0-GmJ" firstAttribute="leading" secondItem="lut-U1-uBt" secondAttribute="leading" id="Ukg-j0-nu2"/>
+                                    <constraint firstItem="qG4-vF-Eee" firstAttribute="leading" secondItem="pCV-ha-Pvu" secondAttribute="leading" id="XJH-Zf-ncy"/>
+                                    <constraint firstItem="GNW-z0-GmJ" firstAttribute="leading" secondItem="pCV-ha-Pvu" secondAttribute="leading" id="c0d-eJ-D4A"/>
+                                    <constraint firstItem="GNW-z0-GmJ" firstAttribute="leading" secondItem="qG4-vF-Eee" secondAttribute="leading" id="fOI-9H-H9E"/>
+                                    <constraint firstAttribute="trailing" secondItem="GNW-z0-GmJ" secondAttribute="trailing" id="gxv-8x-p4E"/>
+                                    <constraint firstAttribute="trailing" secondItem="Ooy-xL-Ee3" secondAttribute="trailing" constant="8" id="h69-Wt-FUZ"/>
+                                    <constraint firstItem="Ooy-xL-Ee3" firstAttribute="top" secondItem="vjw-r0-DOC" secondAttribute="bottom" constant="8" id="jfA-of-2wH"/>
+                                    <constraint firstItem="Ooy-xL-Ee3" firstAttribute="centerX" secondItem="pCV-ha-Pvu" secondAttribute="centerX" id="t3A-j8-mje"/>
+                                    <constraint firstItem="Ooy-xL-Ee3" firstAttribute="leading" secondItem="pCV-ha-Pvu" secondAttribute="leading" constant="8" id="tc6-Sh-Y5Y"/>
+                                    <constraint firstAttribute="bottom" secondItem="lut-U1-uBt" secondAttribute="bottom" id="uCs-9F-HLs"/>
+                                    <constraint firstAttribute="trailing" secondItem="vjw-r0-DOC" secondAttribute="trailing" constant="24" id="wQb-0k-j3g"/>
+                                    <constraint firstItem="GNW-z0-GmJ" firstAttribute="trailing" secondItem="qG4-vF-Eee" secondAttribute="trailing" id="wcx-c5-8mZ"/>
+                                </constraints>
+                            </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Main Office:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zxY-wo-yDd">
+                                <rect key="frame" x="7" y="49" width="302" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="3V8-SP-w5f"/>
+                                    <constraint firstAttribute="width" constant="302" id="osz-u7-0ZV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5GM-ga-oK9">
+                                <rect key="frame" x="0.0" y="78" width="375" height="89"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="89" id="131-l8-aFA"/>
+                                    <constraint firstAttribute="width" constant="375" id="zSo-eI-SXg"/>
+                                </constraints>
+                                <string key="text">17292, Moscow, ulitsa Vavilova, house 65 А, 12 floor, office 1207 Tel.:8(495) 5454180 / 7887762 Fax:8(495)7190538 Мobile: 892691975 56 / 58 +79151791781 / 2 / 3 / 4 / 5­
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="pCV-ha-Pvu" firstAttribute="bottom" secondItem="QNr-rK-zQC" secondAttribute="top" id="0b4-zN-EPi"/>
+                            <constraint firstItem="5GM-ga-oK9" firstAttribute="top" secondItem="zxY-wo-yDd" secondAttribute="bottom" constant="8" id="2r6-fl-zy0"/>
+                            <constraint firstItem="vjw-r0-DOC" firstAttribute="top" secondItem="5GM-ga-oK9" secondAttribute="bottom" constant="6" id="HOD-km-zLd"/>
+                            <constraint firstItem="zxY-wo-yDd" firstAttribute="leading" secondItem="dEH-8v-ugM" secondAttribute="leading" constant="7" id="Uaz-0i-SuJ"/>
+                            <constraint firstItem="zxY-wo-yDd" firstAttribute="top" secondItem="Whl-Dv-Uvh" secondAttribute="bottom" constant="29" id="XaC-d0-lOG"/>
+                            <constraint firstItem="pCV-ha-Pvu" firstAttribute="top" secondItem="dEH-8v-ugM" secondAttribute="top" id="avb-5q-K7G"/>
+                            <constraint firstAttribute="trailing" secondItem="zxY-wo-yDd" secondAttribute="trailing" constant="66" id="had-sr-lxA"/>
+                            <constraint firstItem="pCV-ha-Pvu" firstAttribute="trailing" secondItem="5GM-ga-oK9" secondAttribute="trailing" id="hcg-gG-LTm"/>
+                            <constraint firstItem="pCV-ha-Pvu" firstAttribute="leading" secondItem="5GM-ga-oK9" secondAttribute="leading" id="vgh-SH-OPs"/>
+                            <constraint firstAttribute="trailing" secondItem="5GM-ga-oK9" secondAttribute="trailing" id="xpZ-8u-A1u"/>
+                            <constraint firstItem="5GM-ga-oK9" firstAttribute="leading" secondItem="dEH-8v-ugM" secondAttribute="leading" id="zys-Lv-twT"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Contacts" image="telephone-7" id="vcS-y2-TZh"/>
+                    <connections>
+                        <outlet property="email" destination="LrU-hv-qYm" id="IBl-nJ-8xd"/>
+                        <outlet property="emailtwo" destination="qG4-vF-Eee" id="B6w-PQ-Bmk"/>
+                        <outlet property="mainoffice" destination="zxY-wo-yDd" id="90R-3P-PeY"/>
+                        <outlet property="maintwo" destination="5GM-ga-oK9" id="uTe-AP-57S"/>
+                        <outlet property="mapView" destination="mvX-ez-YuJ" id="Q4c-h7-xtc"/>
+                        <outlet property="works" destination="vjw-r0-DOC" id="0B8-Va-ROT"/>
+                        <outlet property="workstwo" destination="Ooy-xL-Ee3" id="dM8-Ie-09Z"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zgY-0y-DQK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2086" y="-244"/>
+        </scene>
+        <!--Tabbar View Controller-->
+        <scene sceneID="iL6-ed-Xcj">
+            <objects>
+                <tabBarController storyboardIdentifier="rootnav" automaticallyAdjustsScrollViewInsets="NO" id="Oih-8V-X9I" customClass="tabbarViewController" customModule="Alamin_Travel" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="Tcj-zQ-B1g">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="mSy-Fv-yBW" kind="relationship" relationship="viewControllers" id="Nh3-Ck-Iry"/>
+                        <segue destination="KU5-wq-iw3" kind="relationship" relationship="viewControllers" id="ytz-2x-gqH"/>
+                        <segue destination="Tmy-p9-5U7" kind="relationship" relationship="viewControllers" id="YNC-eg-UEf"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9XR-0d-gVS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-220" y="-34"/>
+        </scene>
+        <!--PAYMENT-->
+        <scene sceneID="Q8o-ba-e9w">
+            <objects>
+                <viewController id="KU5-wq-iw3" customClass="paymentViewController" customModule="Alamin_Travel" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lxL-it-CTa"/>
+                        <viewControllerLayoutGuide type="bottom" id="Jep-Ta-Y8j"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JY8-1q-dcL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1670"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i5g-Wb-7bn">
+                                <rect key="frame" x="0.0" y="20" width="375" height="1601"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="en3-Dx-j5z">
+                                        <rect key="frame" x="8" y="8" width="359" height="511"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="In our office" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0je-cs-8Sk">
+                                                <rect key="frame" x="8" y="21" width="343" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7V8-lX-4K5">
+                                                <rect key="frame" x="8" y="44" width="351" height="76"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <string key="text">Payment by cash or credit card in our office is the most reliable way to pay for tickets. You come to our office and buying of pre-booked and confirmed ticket. It’s very simple.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YFJ-ZN-60f">
+                                                <rect key="frame" x="8" y="121" width="343" height="384"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <string key="text">           Head Office:
+117292, Moscow, ul. Vavilova,
+
+house 65 A, 12th Floor, Suite 1207
+
+Tel.: 8 (495) 5454180/7887762
+
+Mobile: 892 691 975 56/57/58
+
+Working hour
+Monday – Friday from 10:00 to 20:00;
+
+Saturday from 11:00 to 18:00.
+
+Branch:
+394000, Voronezh,
+
+ul.Studencheskaya, 26a, Suite 304
+
+tel.: +7 (4732) 61-02-29 / 94-90-16
+
+Mobile.: +7920-427-88-65
+
+</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="511" id="cZ5-FD-Zd3"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JTJ-AW-v6Z">
+                                        <rect key="frame" x="8" y="519" width="359" height="339"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PAYMENT THROUGH COURIER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gyW-1F-8v5">
+                                                <rect key="frame" x="8" y="21" width="343" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1JT-TG-wXR">
+                                                <rect key="frame" x="8" y="50" width="343" height="269"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <string key="text">*Ticket for cash. Courier comes to your home or work.                    
+*Tickets online orders bring to your address.
+*Our couriers are working 7 days a week from 10:00 to 19:00, including holidays.
+*Tariff – 300 rubles.
+*Tariff for prompt delivery from 3 to 5 hours a day of order – 400 rubles.
+*Shipping rates at the metro station Mitino Volokolamsk Myakinino, Strogino, Dmitry Donskoy, Starokachalovskaya Skobelevskaya, Admiral Ushakov, Street Gorchakov Buninskaya Avenue and Market “Gardener” and the area Kapotnya – 400 rubles.
+*Delivery is only within the Ring Road.
+</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="339" id="a2v-Wq-UFv"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v8f-2a-kU9">
+                                        <rect key="frame" x="8" y="858" width="359" height="188"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Other payment methods" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IKY-6m-uji">
+                                                <rect key="frame" x="8" y="21" width="343" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="* Bank Card" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vTb-fc-rP4">
+                                                <rect key="frame" x="8" y="50" width="252" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="visa-mastercard" translatesAutoresizingMaskIntoConstraints="NO" id="MZ1-1c-siT">
+                                                <rect key="frame" x="8" y="79" width="337" height="89"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="188" id="aCv-zc-G8g"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Df8-HF-4Wj">
+                                        <rect key="frame" x="8" y="1054" width="359" height="504"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SAFE ONLINE PAYMENTS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fm6-bl-Hhk">
+                                                <rect key="frame" x="8" y="21" width="343" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F6d-jq-v0W">
+                                                <rect key="frame" x="8" y="50" width="343" height="440"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <string key="text">Security of processing AcquiroPay is confirmed by certificate of standard payment card industry data security PCI DSS. Reliability of service is ensured by intellectual fraud monitoring system, as well as the use of 3D Secure -modern security technology Internet payments. Your card details are entered on a special secure payment page. Transmission of information in processing company AcquiroPay comes with encryption technology TLS. Further transmission is carried out via closed banking channels, with the highest level of reliability. AcquiroPay does not pass your card details shop and other third persons! If your card supports 3D Secure, to make a payment, you will need to pass additional authenticated user in issuing bank (the Bank that issued your card). To do this, you will be directed to the page of the Bank that issued the card. Kind of inspection depends on the Bank. Typically, this is an additional password, which is sent to SMS, map variables, codes or other ways.
+
+If you have any questions about the perfect payment, you can contact technical support processing center AcquiroPay : phone +1-800-460-9773</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="504" id="bQH-OQ-sx1"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Df8-HF-4Wj" firstAttribute="trailing" secondItem="v8f-2a-kU9" secondAttribute="trailing" id="4fE-Ds-2kh"/>
+                                    <constraint firstItem="v8f-2a-kU9" firstAttribute="leading" secondItem="JTJ-AW-v6Z" secondAttribute="leading" id="FM0-bk-vj6"/>
+                                    <constraint firstItem="en3-Dx-j5z" firstAttribute="centerX" secondItem="i5g-Wb-7bn" secondAttribute="centerX" id="HVX-cy-pFd"/>
+                                    <constraint firstItem="JTJ-AW-v6Z" firstAttribute="leading" secondItem="en3-Dx-j5z" secondAttribute="leading" id="JGO-DT-AyV"/>
+                                    <constraint firstAttribute="bottom" secondItem="Df8-HF-4Wj" secondAttribute="bottom" constant="43" id="Jd3-2v-Ac0"/>
+                                    <constraint firstItem="JTJ-AW-v6Z" firstAttribute="trailing" secondItem="en3-Dx-j5z" secondAttribute="trailing" id="NRH-7Q-Dl8"/>
+                                    <constraint firstItem="JTJ-AW-v6Z" firstAttribute="top" secondItem="en3-Dx-j5z" secondAttribute="bottom" id="Sjz-KM-pR7"/>
+                                    <constraint firstItem="en3-Dx-j5z" firstAttribute="leading" secondItem="i5g-Wb-7bn" secondAttribute="leadingMargin" id="Vzk-97-vR5"/>
+                                    <constraint firstItem="v8f-2a-kU9" firstAttribute="trailing" secondItem="JTJ-AW-v6Z" secondAttribute="trailing" id="Xq3-DE-XK0"/>
+                                    <constraint firstItem="en3-Dx-j5z" firstAttribute="top" secondItem="i5g-Wb-7bn" secondAttribute="topMargin" id="YyW-gx-jLi"/>
+                                    <constraint firstItem="en3-Dx-j5z" firstAttribute="trailing" secondItem="i5g-Wb-7bn" secondAttribute="trailingMargin" id="gxN-4U-Nf9"/>
+                                    <constraint firstItem="Df8-HF-4Wj" firstAttribute="leading" secondItem="v8f-2a-kU9" secondAttribute="leading" id="oyE-id-JgL"/>
+                                    <constraint firstItem="Df8-HF-4Wj" firstAttribute="top" secondItem="v8f-2a-kU9" secondAttribute="bottom" constant="8" symbolic="YES" id="pVK-Ga-bDj"/>
+                                    <constraint firstItem="v8f-2a-kU9" firstAttribute="top" secondItem="JTJ-AW-v6Z" secondAttribute="bottom" id="ru9-LL-i5U"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="i5g-Wb-7bn" firstAttribute="top" secondItem="lxL-it-CTa" secondAttribute="bottom" id="Gre-M1-wrt"/>
+                            <constraint firstItem="i5g-Wb-7bn" firstAttribute="bottom" secondItem="Jep-Ta-Y8j" secondAttribute="top" id="fOF-5e-BS8"/>
+                            <constraint firstItem="i5g-Wb-7bn" firstAttribute="leading" secondItem="JY8-1q-dcL" secondAttribute="leading" id="tUe-0o-xj1"/>
+                            <constraint firstAttribute="trailing" secondItem="i5g-Wb-7bn" secondAttribute="trailing" id="zZ5-Mj-cCv"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="PAYMENT" image="wallet-7" id="czq-FA-wUY"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="1670"/>
+                    <connections>
+                        <outlet property="bankcard" destination="vTb-fc-rP4" id="TxI-sb-FIp"/>
+                        <outlet property="headoffice" destination="YFJ-ZN-60f" id="RrF-tF-Xgu"/>
+                        <outlet property="inoffice" destination="0je-cs-8Sk" id="zpU-PG-ZKx"/>
+                        <outlet property="inofficetwo" destination="7V8-lX-4K5" id="scC-ff-xza"/>
+                        <outlet property="otherpayment" destination="IKY-6m-uji" id="bUL-Ah-EBP"/>
+                        <outlet property="payment" destination="gyW-1F-8v5" id="Udf-Rl-Fh7"/>
+                        <outlet property="paymenttwo" destination="1JT-TG-wXR" id="uBc-av-2pt"/>
+                        <outlet property="safeop" destination="Fm6-bl-Hhk" id="Mfa-Sm-CtN"/>
+                        <outlet property="safeoptwo" destination="F6d-jq-v0W" id="BS9-SU-kIh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5v8-co-VGt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1270" y="694"/>
+        </scene>
+        <!--FLIGHT-->
+        <scene sceneID="DGl-aj-rez">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="mSy-Fv-yBW" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="FLIGHT" image="flight" id="G7F-U2-Myj"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="eTR-yS-6lp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="XmH-Ar-GgH"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L7A-Ie-XnQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="724" y="-869.41529235382313"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="flight" width="30" height="30"/>
+        <image name="telephone-7" width="30" height="30"/>
+        <image name="visa-mastercard" width="650" height="230"/>
+        <image name="wallet-7" width="30" height="30"/>
+    </resources>
+</document>

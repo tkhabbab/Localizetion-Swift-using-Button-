@@ -1,0 +1,66 @@
+
+/* Class = "UILabel"; text = "In our office"; ObjectID = "0je-cs-8Sk"; */
+"0je-cs-8Sk.text" = "In our office";
+
+/* Class = "UITextView"; text = "*Ticket for cash. Courier comes to your home or work.                    \n*Tickets online orders bring to your address.\n*Our couriers are working 7 days a week from 10:00 to 19:00, including holidays.\n*Tariff – 300 rubles.\n*Tariff for prompt delivery from 3 to 5 hours a day of order – 400 rubles.\n*Shipping rates at the metro station Mitino Volokolamsk Myakinino, Strogino, Dmitry Donskoy, Starokachalovskaya Skobelevskaya, Admiral Ushakov, Street Gorchakov Buninskaya Avenue and Market “Gardener” and the area Kapotnya – 400 rubles.\n*Delivery is only within the Ring Road.\n"; ObjectID = "1JT-TG-wXR"; */
+"1JT-TG-wXR.text" = "*Ticket for cash. Courier comes to your home or work.                    \n*Tickets online orders bring to your address.\n*Our couriers are working 7 days a week from 10:00 to 19:00, including holidays.\n*Tariff – 300 rubles.\n*Tariff for prompt delivery from 3 to 5 hours a day of order – 400 rubles.\n*Shipping rates at the metro station Mitino Volokolamsk Myakinino, Strogino, Dmitry Donskoy, Starokachalovskaya Skobelevskaya, Admiral Ushakov, Street Gorchakov Buninskaya Avenue and Market “Gardener” and the area Kapotnya – 400 rubles.\n*Delivery is only within the Ring Road.\n";
+
+/* Class = "UITextView"; text = "17292, Moscow, ulitsa Vavilova, house 65 А, 12 floor, office 1207 Tel.:8(495) 5454180 / 7887762 Fax:8(495)7190538 Мobile: 892691975 56 / 58 +79151791781 / 2 / 3 / 4 / 5­\n"; ObjectID = "5GM-ga-oK9"; */
+"5GM-ga-oK9.text" = "17292, Moscow, ulitsa Vavilova, house 65 А, 12 floor, office 1207 Tel.:8(495) 5454180 / 7887762 Fax:8(495)7190538 Мobile: 892691975 56 / 58 +79151791781 / 2 / 3 / 4 / 5­\n";
+
+/* Class = "UIButton"; normalTitle = "Ukraine"; ObjectID = "7Ap-MG-e3r"; */
+"7Ap-MG-e3r.normalTitle" = "Ukraine";
+
+/* Class = "UITextView"; text = "Payment by cash or credit card in our office is the most reliable way to pay for tickets. You come to our office and buying of pre-booked and confirmed ticket. It’s very simple."; ObjectID = "7V8-lX-4K5"; */
+"7V8-lX-4K5.text" = "Payment by cash or credit card in our office is the most reliable way to pay for tickets. You come to our office and buying of pre-booked and confirmed ticket. It’s very simple.";
+
+/* Class = "UITextView"; text = "Security of processing AcquiroPay is confirmed by certificate of standard payment card industry data security PCI DSS. Reliability of service is ensured by intellectual fraud monitoring system, as well as the use of 3D Secure -modern security technology Internet payments. Your card details are entered on a special secure payment page. Transmission of information in processing company AcquiroPay comes with encryption technology TLS. Further transmission is carried out via closed banking channels, with the highest level of reliability. AcquiroPay does not pass your card details shop and other third persons! If your card supports 3D Secure, to make a payment, you will need to pass additional authenticated user in issuing bank (the Bank that issued your card). To do this, you will be directed to the page of the Bank that issued the card. Kind of inspection depends on the Bank. Typically, this is an additional password, which is sent to SMS, map variables, codes or other ways.\n\nIf you have any questions about the perfect payment, you can contact technical support processing center AcquiroPay : phone +1-800-460-9773"; ObjectID = "F6d-jq-v0W"; */
+"F6d-jq-v0W.text" = "Security of processing AcquiroPay is confirmed by certificate of standard payment card industry data security PCI DSS. Reliability of service is ensured by intellectual fraud monitoring system, as well as the use of 3D Secure -modern security technology Internet payments. Your card details are entered on a special secure payment page. Transmission of information in processing company AcquiroPay comes with encryption technology TLS. Further transmission is carried out via closed banking channels, with the highest level of reliability. AcquiroPay does not pass your card details shop and other third persons! If your card supports 3D Secure, to make a payment, you will need to pass additional authenticated user in issuing bank (the Bank that issued your card). To do this, you will be directed to the page of the Bank that issued the card. Kind of inspection depends on the Bank. Typically, this is an additional password, which is sent to SMS, map variables, codes or other ways.\n\nIf you have any questions about the perfect payment, you can contact technical support processing center AcquiroPay : phone +1-800-460-9773";
+
+/* Class = "UILabel"; text = "SAFE ONLINE PAYMENTS"; ObjectID = "Fm6-bl-Hhk"; */
+"Fm6-bl-Hhk.text" = "SAFE ONLINE PAYMENTS";
+
+/* Class = "UITabBarItem"; title = "FLIGHT"; ObjectID = "G7F-U2-Myj"; */
+"G7F-U2-Myj.title" = "РЕЙС";
+
+/* Class = "UILabel"; text = "Other payment methods"; ObjectID = "IKY-6m-uji"; */
+"IKY-6m-uji.text" = "Other payment methods";
+
+/* Class = "UIButton"; normalTitle = "Русский"; ObjectID = "KfS-xZ-QMT"; */
+"KfS-xZ-QMT.normalTitle" = "Русский";
+
+/* Class = "UILabel"; text = "Email:"; ObjectID = "LrU-hv-qYm"; */
+"LrU-hv-qYm.text" = "Email:";
+
+/* Class = "UITextView"; text = "Monday – Friday from 8:00 to 20:00; Saturday from 10:00 to 18:00. "; ObjectID = "Ooy-xL-Ee3"; */
+"Ooy-xL-Ee3.text" = "Monday – Friday from 8:00 to 20:00; Saturday from 10:00 to 18:00. ";
+
+/* Class = "UIButton"; normalTitle = "English"; ObjectID = "T4N-Zs-a1I"; */
+"T4N-Zs-a1I.normalTitle" = "English";
+
+/* Class = "UITextView"; text = "           Head Office:\n117292, Moscow, ul. Vavilova,\n\nhouse 65 A, 12th Floor, Suite 1207\n\nTel.: 8 (495) 5454180/7887762\n\nMobile: 892 691 975 56/57/58\n\nWorking hour\nMonday – Friday from 10:00 to 20:00;\n\nSaturday from 11:00 to 18:00.\n\nBranch:\n394000, Voronezh,\n\nul.Studencheskaya, 26a, Suite 304\n\ntel.: +7 (4732) 61-02-29 / 94-90-16\n\nMobile.: +7920-427-88-65\n\n"; ObjectID = "YFJ-ZN-60f"; */
+"YFJ-ZN-60f.text" = "           Head Office:\n117292, Moscow, ul. Vavilova,\n\nhouse 65 A, 12th Floor, Suite 1207\n\nTel.: 8 (495) 5454180/7887762\n\nMobile: 892 691 975 56/57/58\n\nWorking hour\nMonday – Friday from 10:00 to 20:00;\n\nSaturday from 11:00 to 18:00.\n\nBranch:\n394000, Voronezh,\n\nul.Studencheskaya, 26a, Suite 304\n\ntel.: +7 (4732) 61-02-29 / 94-90-16\n\nMobile.: +7920-427-88-65\n\n";
+
+/* Class = "UITabBarItem"; title = "PAYMENT"; ObjectID = "czq-FA-wUY"; */
+"czq-FA-wUY.title" = "ОПЛАТА";
+
+/* Class = "UILabel"; text = "PAYMENT THROUGH COURIER"; ObjectID = "gyW-1F-8v5"; */
+"gyW-1F-8v5.text" = "PAYMENT THROUGH COURIER";
+
+/* Class = "UITextView"; text = "sazzad@mail.ru  reservation@alamin.ru"; ObjectID = "qG4-vF-Eee"; */
+"qG4-vF-Eee.text" = "sazzad@mail.ru  reservation@alamin.ru";
+
+/* Class = "UINavigationItem"; title = "Alamin Travels"; ObjectID = "rKP-6k-5qx"; */
+"rKP-6k-5qx.title" = "Alamin Travels";
+
+/* Class = "UILabel"; text = "* Bank Card"; ObjectID = "vTb-fc-rP4"; */
+"vTb-fc-rP4.text" = "* Bank Card";
+
+/* Class = "UITabBarItem"; title = "Contacts"; ObjectID = "vcS-y2-TZh"; */
+"vcS-y2-TZh.title" = "контакты";
+
+/* Class = "UILabel"; text = "Work Hours"; ObjectID = "vjw-r0-DOC"; */
+"vjw-r0-DOC.text" = "Work Hours";
+
+/* Class = "UILabel"; text = "Main Office:"; ObjectID = "zxY-wo-yDd"; */
+"zxY-wo-yDd.text" = "Main Office:";
