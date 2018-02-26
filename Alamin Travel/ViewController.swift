@@ -53,19 +53,8 @@ class ViewController: UIViewController {
             
         }
         
-        let rootviewcontroller: UIWindow = ((UIApplication.shared.delegate?.window)!)!
+       changeview()
         
-        rootviewcontroller.rootViewController = self.storyboard?.instantiateViewController(withIdentifier: "rootnav")
-        
-        let mainwindow = (UIApplication.shared.delegate?.window!)!
-        
-        mainwindow.backgroundColor = UIColor(hue: 0.6477, saturation: 0.6314, brightness: 0.6077, alpha: 0.8)
-        
-        UIView.transition(with: mainwindow, duration: 0.55001, options: .transitionFlipFromRight, animations: { () -> Void in
-            
-        }) { (finished) -> Void in
-            
-        }
         let url = URL(string: "https://www.epower.amadeus.com/alamintravel/#Culture=ru-RU")
         self.webView.loadRequest(URLRequest(url: url!))
         
@@ -90,19 +79,7 @@ class ViewController: UIViewController {
             
         }
         
-        let rootviewcontroller: UIWindow = ((UIApplication.shared.delegate?.window)!)!
-        
-        rootviewcontroller.rootViewController = self.storyboard?.instantiateViewController(withIdentifier: "rootnav")
-        
-        let mainwindow = (UIApplication.shared.delegate?.window!)!
-        
-        mainwindow.backgroundColor = UIColor(hue: 0.6477, saturation: 0.6314, brightness: 0.6077, alpha: 0.8)
-        
-        UIView.transition(with: mainwindow, duration: 0.55001, options: .transitionFlipFromRight, animations: { () -> Void in
-            
-        }) { (finished) -> Void in
-            
-        }
+       changeview()
         
         
         let url = URL(string: "https://www.epower.amadeus.com/alamintravel/#Culture=en-GB")
@@ -130,6 +107,14 @@ class ViewController: UIViewController {
             
         }
         
+        changeview()
+      
+        let url = URL(string: "https://www.epower.amadeus.com/alamintravel/#Culture=ru-RU")
+        self.webView.loadRequest(URLRequest(url: url!))
+    }
+    
+    
+    func changeview(){
         let rootviewcontroller: UIWindow = ((UIApplication.shared.delegate?.window)!)!
         
         rootviewcontroller.rootViewController = self.storyboard?.instantiateViewController(withIdentifier: "rootnav")
@@ -143,14 +128,6 @@ class ViewController: UIViewController {
         }) { (finished) -> Void in
             
         }
-      
-        let url = URL(string: "https://www.epower.amadeus.com/alamintravel/#Culture=ru-RU")
-        self.webView.loadRequest(URLRequest(url: url!))
-    }
-    
-    
-    func checkinternet(){
-        
         
         
     }
