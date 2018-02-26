@@ -113,6 +113,7 @@ class ViewController: UIViewController {
         self.webView.loadRequest(URLRequest(url: url!))
     }
     
+    // Change View Without restarting the app
     
     func changeview(){
         let rootviewcontroller: UIWindow = ((UIApplication.shared.delegate?.window)!)!
